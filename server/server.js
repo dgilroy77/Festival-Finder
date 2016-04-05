@@ -1,6 +1,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var path = require('path');
 
 var port = process.env.PORT || 8000;
 var dbUri = process.env.MONGOLAB_URI || 'mongodb://localhost/festivalfinder';
@@ -14,9 +15,7 @@ mongoose.connect(dbUri);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/', function(req, res) {
-  res.json({message: 'Hack Reactor Festival Finder API'});
-});
+app.use(express.static(path.join(__dirname, '../')));
 
 // TODO: Use the characterRouter as middleware on the '/api/characters' route
 app.use('/api/festivals', festivalRouter);

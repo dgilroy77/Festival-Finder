@@ -1,4 +1,4 @@
-window.festivalData = [
+var festivalData = [
   {
     "name" : "Holy Ship!!",
     "city" : "Miami",
@@ -150,6 +150,22 @@ window.festivalData = [
     "month" : "March",
     "website" : "http://ultramusicfestival.com/",
     "genres" : ["EDM"]
+  },
+  {
+    "name" : "CRSSD Festival",
+    "city" : "San Diego",
+    "state" : "California",
+    "month" : "March/October",
+    "website" : "http://crssdfest.com/",
+    "genres" : ["EDM", "Electronic"]
+  },
+  {
+    "name": "Suwannee Springfest",
+    "city" : "Live Oak",
+    "state" : "Florida",
+    "month" : "March",
+    "website" : "http://www.suwanneespringfest.com/",
+    "genres" : ["Bluegrass", "Folk", "Rock", "Jam Bands"]
   },
   {
     "name" : "Beyond Wonderland",
@@ -1617,4 +1633,5 @@ window.festivalData = [
   },
 ];
 
-//module.exports = festivals;
+//module.exports = festivalData;
+window.festivalData = festivalData;
