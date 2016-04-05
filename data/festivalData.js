@@ -8,14 +8,6 @@ window.festivalData = [
     "genres" : ["EDM"]
   },
   {
-    "name" : "Sandy Beaches Cruise",
-    "city" : "Miami",
-    "state" : "Florida",
-    "month" : "January",
-    "website" : "http://www.sandybeachescruise.com",
-    "genres" : ["Blues", "Bluegrass", "Country", "Folk", "Americana"]
-  },
-  {
     "name" : "Groove Cruise",
     "city" : "Miami",
     "state" : "Florida",
@@ -75,7 +67,7 @@ window.festivalData = [
     "name" : "Wanderlust Hawaii",
     "city" : "Oahu",
     "state" : "Hawaii",
-    "month" : "February-March",
+    "month" : "March",
     "website" : "http://oahu.wanderlustfestival.com/",
     "genres" : ["Classic Rock", "Acid Jazz", "Reggae", "Electronica", "Funk", "Soul", "World"]
   },

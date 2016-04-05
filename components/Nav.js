@@ -14,6 +14,7 @@ class Nav extends React.Component {
     });
   }
   handleMonthInputChange(e) {
+    console.log(e.target.value)
     this.setState({
       value: e.target.month
     });

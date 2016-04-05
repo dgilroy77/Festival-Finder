@@ -5,9 +5,8 @@ const FestivalList = ({festivals}) => {
         festival={festival}
     />
   );
-  console.log(festivalEntries);
   return (
-    <div>
+    <div className="container">
     <div className="festival-list">
         {festivalEntries}
     </div>

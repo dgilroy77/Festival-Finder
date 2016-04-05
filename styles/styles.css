@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-image: url("http://rugfest.co.uk/wp-content/themes/rugfest/images/rugfest_background.png");
+}
+
+.container {
+  text-align: center;
+  font-size: 1.15em;
+}
+
+.navbar {
+  text-align: center;
+}
