@@ -101,7 +101,7 @@ window.festivalData = [
     "state" : "Georgia",
     "month" : "March",
     "website" : "http://www.savannahstopover.com/",
-    "genres" : ["All local bands, many genres"]
+    "genres" : ["Local Bands"]
   },
   {
     "name" : "35 Denton",
@@ -109,7 +109,7 @@ window.festivalData = [
     "state" : "Texas",
     "month" : "March",
     "website" : "http://35denton.com/",
-    "genres" : [""]
+    "genres" : ["Psychedelic Pop", "Classic Rock", "Rock", "Alternative Rock"]
   },
   {
     "name" : "Buku Music and Art Project",
@@ -197,7 +197,7 @@ window.festivalData = [
     "state" : "Iowa",
     "month" : "April",
     "website" : "http://www.missionfreak.com/",
-    "genres" : [""]
+    "genres" : ["Indie"]
   },
   {
     "name" : "Country Thunder Arizona",
@@ -1593,7 +1593,7 @@ window.festivalData = [
   },
   {
     "name" : "Fun Fun Fun Fest",
-    "city" : "Austin ",
+    "city" : "Austin",
     "state" : "Texas",
     "month" : "November",
     "website" : "http://www.funfunfunfest.com/",
@@ -1609,20 +1609,12 @@ window.festivalData = [
   },
   {
     "name" : "Atlantic Music Festival",
-    "city" : "Waterville ",
+    "city" : "Waterville",
     "state" : "Maine",
     "month" : "July/August",
     "website" : "http://atlanticmusicfestival.org/",
     "genres" : ["Classical", "Chamber Music"]
   },
-  {
-    "name" : "River Beats",
-    "city" : "Bellvue",
-    "state" : "Colorado",
-    "month" : "July",
-    "website" : "No Website",
-    "genres" : [""]
-  }
 ];
 
 //module.exports = festivals;

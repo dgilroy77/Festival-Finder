@@ -3,7 +3,8 @@ class App extends React.Component {
     super(props);
   
     this.state = {
-      festivals: this.props.festivals
+      festivals: this.props.festivals,
+      output: this.props.festivals
     }
   };
 
@@ -16,15 +17,38 @@ class App extends React.Component {
   handleFestivalSubmit(festState, festMonth, festGenre) {
     var festivals = this.state.festivals.slice();
     var output = [];
-    console.log(festState);
-    console.log(festivals[1].state);
     for(var i = 0; i < festivals.length; i++) {
-      if(festivals[i].state === festState || festivals[i].month === festMonth) {
-        output.push(festivals[i]);
+      if (festState === festivals[i].state) {
+        if (festMonth === festivals[i].month) {
+          if (festivals[i].genres.indexOf(festGenre) !== -1) {
+            output.push(festivals[i]);
+          } else if (festGenre === '') {
+            output.push(festivals[i]);
+          }
+        } else if (festMonth === '') {
+          if (festivals[i].genres.indexOf(festGenre) !== -1) {
+            output.push(festivals[i]);
+          } else if (festGenre === '') {
+            output.push(festivals[i]);
+          }
+        }
+      } else if (festState === '') {
+        if (festMonth === festivals[i].month) {
+          if (festivals[i].genres.indexOf(festGenre) !== -1) {
+            output.push(festivals[i]);
+          } else if (festGenre === '') {
+            output.push(festivals[i]);
+          }
+        } else if (festMonth === '') {
+          if (festivals[i].genres.indexOf(festGenre) !== -1) {
+            output.push(festivals[i]);
+          }
+        }
       }
     }
+
     this.setState({
-      festivals: output
+      output: output
     });
   }
 
@@ -33,7 +57,7 @@ class App extends React.Component {
       <div>
         <Nav handleFestivalSubmit={this.handleFestivalSubmit.bind(this)}/>
         <br/>
-        <FestivalList festivals={this.state.festivals} />
+        <FestivalList festivals={this.state.output} />
       </div>
     )
   }
