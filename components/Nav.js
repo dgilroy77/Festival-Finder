@@ -10,19 +10,29 @@ class Nav extends React.Component {
 
   handleStateInputChange(e) {
     this.setState({
-      value: e.target.locationState
+      locationState: e.target.value
     });
   }
+
   handleMonthInputChange(e) {
-    console.log(e.target.value)
     this.setState({
-      value: e.target.month
+      month: e.target.value
     });
   }
 
   handleGenreInputChange(e) {
     this.setState({
-      value: e.target.musicGenre
+      musicGenre: e.target.value
+    });
+  }
+
+  festivalSubmit(e) {
+    e.preventDefault();
+    this.props.handleFestivalSubmit.call(null, this.state.locationState, this.state.month, this.state.musicGenre);
+    this.setState({
+      locationState: '',
+      month: '',
+      musicGenre: ''
     });
   }
 
@@ -30,11 +40,12 @@ class Nav extends React.Component {
     return (
       <nav className="navbar">
         <form className="findFestival">
-          State: <input type="text" value={this.state.value} onChange={this.handleStateInputChange.bind(this)} name="us-state"></input>
+          State: <input type="text" value={this.state.locationState} onChange={this.handleStateInputChange.bind(this)} name="us-state"></input>
           <span>     </span>
-          Month: <input type="text" value={this.state.value} onChange={this.handleMonthInputChange.bind(this)} name="month"></input>
+          Month: <input type="text" value={this.state.month} onChange={this.handleMonthInputChange.bind(this)} name="month"></input>
           <span>     </span>
-          Genre: <input type="text" value={this.state.value} onChange={this.handleGenreInputChange.bind(this)} name="music-genre"></input>
+          Genre: <input type="text" value={this.state.musicGenre} onChange={this.handleGenreInputChange.bind(this)} name="music-genre"></input>
+          <input type='submit' value='Search' onClick={this.festivalSubmit.bind(this)}></input>
         </form>
       </nav>
     );

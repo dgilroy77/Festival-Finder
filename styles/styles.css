@@ -11,6 +11,10 @@ body {
   font-size: 1.15em;
 }
 
+.festival-details {
+  font-style: italic;
+}
+
 .navbar {
   text-align: center;
 }

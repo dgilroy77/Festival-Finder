@@ -1,8 +1,8 @@
 const FestivalListEntry = ({festival}) => (
   <div className="container">
     <div className="festival-list-entry">
-      <span className="festival-details">{festival.name} |</span>  
-      <a href={festival.website}> {festival.website}</a>  
+      <span className="festival-details">{festival.name} </span>  
+      <a href={festival.website}>| {festival.website}</a>  
       <br/>
       <span className="month">{festival.month}</span> 
       <span>   </span>
