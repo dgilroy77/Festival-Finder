@@ -4,7 +4,7 @@ const FestivalListEntry = ({festival}) => (
       <span className="festival-details">{festival.name} </span>  
       <a href={festival.website}>| {festival.website}</a>  
       <br/>
-      <span className="month">{festival.month}</span> 
+      <span className="month">{festival.month} -- </span> 
       <span>   </span>
       <span className="location">{festival.city}, {festival.state}</span>
       <hr/>
