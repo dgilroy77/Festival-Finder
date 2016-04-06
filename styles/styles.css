@@ -1,5 +1,7 @@
 h1 {
   text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 3.2em;
 }
 
 body {
@@ -17,4 +19,8 @@ body {
 
 .navbar {
   text-align: center;
+}
+
+.inputs {
+  font-family: Impact, Charcoal, sans-serif;
 }

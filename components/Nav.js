@@ -40,11 +40,11 @@ class Nav extends React.Component {
     return (
       <nav className="navbar">
         <form className="findFestival">
-          State: <input type="text" value={this.state.locationState} onChange={this.handleStateInputChange.bind(this)} name="us-state"></input>
+          <span className="inputs">State:</span> <input type="text" value={this.state.locationState} onChange={this.handleStateInputChange.bind(this)} name="us-state"></input>
           <span>     </span>
-          Month: <input type="text" value={this.state.month} onChange={this.handleMonthInputChange.bind(this)} name="month"></input>
+          <span className="inputs">Month:</span> <input className="inputs" type="text" value={this.state.month} onChange={this.handleMonthInputChange.bind(this)} name="month"></input>
           <span>     </span>
-          Genre: <input type="text" value={this.state.musicGenre} onChange={this.handleGenreInputChange.bind(this)} name="music-genre"></input>
+          <span className="inputs">Genre:</span> <input className="inputs" type="text" value={this.state.musicGenre} onChange={this.handleGenreInputChange.bind(this)} name="music-genre"></input>
           <input type='submit' value='Search' onClick={this.festivalSubmit.bind(this)}></input>
         </form>
       </nav>

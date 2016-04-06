@@ -5,7 +5,7 @@ var festivalData = [
     "state" : "Florida",
     "month" : "January",
     "website" : "http://holyship.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Groove Cruise",
@@ -13,7 +13,7 @@ var festivalData = [
     "state" : "Florida",
     "month" : "January",
     "website" : "http://www.thegroovecruise.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Mountain Song at Sea",
@@ -117,7 +117,7 @@ var festivalData = [
     "state" : "Louisiana",
     "month" : "March",
     "website" : "http://thebukuproject.com/",
-    "genres" : ["EDM", "Hip-Hop", "Indie Rock"]
+    "genres" : ["EDM", "Hip-Hop", "Indie Rock", "Electronic"]
   },
   {
     "name" : "Snowball",
@@ -141,7 +141,7 @@ var festivalData = [
     "state" : "Texas",
     "month" : "March",
     "website" : "http://sxsw.com/",
-    "genres" : ["Rock", "Alternative Rock", "Indie Rock", "EDM", "Electronica", "Blues", "Country", "Folk", "Folk Rock", "Pop", "Hip Hop"]
+    "genres" : ["Rock", "Alternative Rock", "Indie Rock", "EDM", "Electronica", "Electronic", "Blues", "Country", "Folk", "Folk Rock", "Pop", "Hip Hop"]
   },
   {
     "name" : "Ultra Music Festival",
@@ -149,7 +149,7 @@ var festivalData = [
     "state" : "Florida",
     "month" : "March",
     "website" : "http://ultramusicfestival.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "CRSSD Festival",
@@ -173,7 +173,7 @@ var festivalData = [
     "state" : "California",
     "month" : "March",
     "website" : "http://beyondwonderland.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Treefort Music Festival",
@@ -237,7 +237,7 @@ var festivalData = [
     "state" : "Texas",
     "month" : "April",
     "website" : "http://www.euphoriafest.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Eric Clapton's Crossroads Guitar Festival",
@@ -253,7 +253,7 @@ var festivalData = [
     "state" : "California",
     "month" : "April",
     "website" : "http://www.coachella.com/",
-    "genres" : ["Indie", "EDM", "Rock", "Hip-Hop", "Alternative Rock"]
+    "genres" : ["Indie", "EDM", "Electronic", "Rock", "Hip-Hop", "Alternative Rock"]
   },
   {
     "name" : "Rock N Roll Resort ",
@@ -301,7 +301,7 @@ var festivalData = [
     "state" : "Georgia",
     "month" : "April",
     "website" : "http://magneticmusicfestival.com/",
-    "genres" : ["EDM", "Hip-Hop"]
+    "genres" : ["EDM", "Electronic", "Hip-Hop"]
   },
   {
     "name" : "Desert Daze",
@@ -464,6 +464,14 @@ var festivalData = [
     "genres" : ["Hard Rock", "Alternative Rock"]
   },
   {
+    "name" : "All Day I Dream in the Park",
+    "city" : "San Francisco",
+    "state" : "California",
+    "month" : "May",
+    "website" : "http://alldayidream.com",
+    "genres" : ["Electronic"]
+  },
+  {
     "name" : "Texas Thunder",
     "city" : "Gardendale",
     "state" : "Texas",
@@ -485,7 +493,7 @@ var festivalData = [
     "state" : "New York",
     "month" : "May",
     "website" : "http://electricdaisycarnival.com/NewYork/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Joshua Tree Festival",
@@ -541,7 +549,7 @@ var festivalData = [
     "state" : "Illinois",
     "month" : "May",
     "website" : "http://electricdaisycarnival.com/Chicago/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Rocklahoma",
@@ -621,7 +629,7 @@ var festivalData = [
     "state" : "Michigan",
     "month" : "May",
     "website" : "http://movement.us/t/",
-    "genres" : ["EDM", "Electronica"]
+    "genres" : ["EDM", "Electronica", "Electronic"]
   },
   {
     "name" : "Soundset Festival",
@@ -637,7 +645,7 @@ var festivalData = [
     "state" : "Arizona",
     "month" : "May",
     "website" : "http://www.wakarusa.com/",
-    "genres" : ["Jam Bands", "Alternative Rock", "Folk Rock", "Hip-Hop", "Americana", "Country", "Funk", "Bluegrass", "Electronica"]
+    "genres" : ["Jam Bands", "Alternative Rock", "Folk Rock", "Hip-Hop", "Americana", "Country", "Funk", "Bluegrass", "Electronica", "Electronic"]
   },
   {
     "name" : "Nelsonville Music Festival",
@@ -749,7 +757,7 @@ var festivalData = [
     "state" : "Illinois",
     "month" : "June",
     "website" : "http://www.springawakeningfestival.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Clearwater Festival",
@@ -821,7 +829,7 @@ var festivalData = [
     "state" : "Nevada",
     "month" : "June",
     "website" : "http://electricdaisycarnival.com/LasVegas/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Firefly Music Festival",
@@ -861,7 +869,7 @@ var festivalData = [
     "state" : "Michigan",
     "month" : "June",
     "website" : "http://electricforestfestival.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Country Stampede",
@@ -877,7 +885,7 @@ var festivalData = [
     "state" : "Washington",
     "month" : "June",
     "website" : "http://www.paradisofestival.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "MASSV Music Festival",
@@ -885,7 +893,7 @@ var festivalData = [
     "state" : "Idaho",
     "month" : "July",
     "website" : "http://massvmusicfestival.com/",
-    "genres" : ["EDM", "Electronica"]
+    "genres" : ["EDM", "Electronica", "Electronic"]
   },
   {
     "name" : "Essence Music Festival",
@@ -909,7 +917,7 @@ var festivalData = [
     "state" : "Colorado",
     "month" : "July",
     "website" : "http://colorado.wanderlustfestival.com/",
-    "genres" : ["Classic Rock", "Acid Jazz", "Reggae", "Electronica", "Funk", "Soul", "World"]
+    "genres" : ["Classic Rock", "Acid Jazz", "Reggae", "Electronica", "Electronic", "Funk", "Soul", "World"]
   },
   {
     "name" : "High Sierra Music Festival",
@@ -941,7 +949,7 @@ var festivalData = [
     "state" : "Illinois",
     "month" : "July",
     "website" : "http://www.wavefrontmusicfestival.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "80/35 Music Festival",
@@ -965,7 +973,7 @@ var festivalData = [
     "state" : "California",
     "month" : "July ",
     "website" : "http://lightninginabottle.org/",
-    "genres" : ["EDM", "Experimental", "Electronica", "Psychedelic"]
+    "genres" : ["EDM", "Experimental", "Electronica", "Psychedelic", "Electronic"]
   },
   {
     "name" : "Basilica Block Party",
@@ -1053,7 +1061,7 @@ var festivalData = [
     "state" : "Colorado",
     "month" : "July",
     "website" : "http://www.theums.com/",
-    "genres" : ["EDM", "Electronica", "Rock", "Alternative Rock", "Indie Rock", "Folk", "Jam Band"]
+    "genres" : ["EDM", "Electronica", "Electronic", "Rock", "Alternative Rock", "Indie Rock", "Folk", "Jam Band"]
   },
   {
     "name" : "All Good Music Festival",
@@ -1061,7 +1069,7 @@ var festivalData = [
     "state" : "Ohio",
     "month" : "July",
     "website" : "http://www.allgoodfestival.com/",
-    "genres" : ["Bluegrass", "Rock", "EDM", "Folk", "Alternative Rock", "Jam Band"]
+    "genres" : ["Bluegrass", "Rock", "EDM", "Electronic", "Folk", "Alternative Rock", "Jam Band"]
   },
   {
     "name" : "Nothwest String Summit",
@@ -1109,7 +1117,7 @@ var festivalData = [
     "state" : "Oregon",
     "month" : "July",
     "website" : "http://whatthefestival.com/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Newport Folk Festival",
@@ -1173,7 +1181,7 @@ var festivalData = [
     "state" : "New Jersey",
     "month" : "August",
     "website" : "http://electricadventure.com",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Hard Summer",
@@ -1189,7 +1197,7 @@ var festivalData = [
     "state" : "New York",
     "month" : "August",
     "website" : "http://www.thebigup.com/",
-    "genres" : ["Progressive Rock", "EDM", "Indie Rock", "Electronic Rock"]
+    "genres" : ["Progressive Rock", "EDM", "Indie Rock", "Electronic Rock", "Electronic"]
   },
   {
     "name" : "Kahbang Music, Arts & Film Festival",
@@ -1197,7 +1205,7 @@ var festivalData = [
     "state" : "Maine",
     "month" : "August",
     "website" : "http://www.kahbang.com/",
-    "genres" : ["Indie Rock", "EDM"]
+    "genres" : ["Indie Rock", "EDM", "Electronic"]
   },
   {
     "name" : "Litchfield Jazz Festival",
@@ -1237,7 +1245,7 @@ var festivalData = [
     "state" : "Wisconsin",
     "month" : "August",
     "website" : "http://www.summersetfestival.com/",
-    "genres" : ["EDM", "Alternative Rock", "Hip-Hop"]
+    "genres" : ["EDM", "Electronic", "Alternative Rock", "Hip-Hop"]
   },
   {
     "name" : "Summer Meltdown Festival",
@@ -1261,7 +1269,7 @@ var festivalData = [
     "state" : "New York",
     "month" : "August",
     "website" : "http://bellaterrafestival.com/",
-    "genres" : ["EDM", "Electronica"]
+    "genres" : ["EDM", "Electronica", "Electronic"]
   },
   {
     "name" : "Willamette Country Music Festival",
@@ -1341,7 +1349,7 @@ var festivalData = [
     "state" : "New York",
     "month" : "August/September",
     "website" : "http://www.madeevent.com/ElectricZoo/",
-    "genres" : ["Electronic"]
+    "genres" : ["Electronic", "EDM"]
   },
   {
     "name" : "Abbey Road on the River Cleveland",
@@ -1477,7 +1485,7 @@ var festivalData = [
     "state" : "Georgia",
     "month" : "September",
     "website" : "http://www.tomorrowworld.com/home",
-    "genres" : ["Electronic"]
+    "genres" : ["Electronic", "EDM"]
   },
   {
     "name" : "Groove Cruise Los Angeles",
@@ -1485,7 +1493,7 @@ var festivalData = [
     "state" : "California",
     "month" : "September",
     "website" : "http://www.thegroovecruise.com/la",
-    "genres" : ["Electronic"]
+    "genres" : ["Electronic", "EDM"]
   },
   {
     "name" : "Beyond Wonderland",
@@ -1493,7 +1501,7 @@ var festivalData = [
     "state" : "California",
     "month" : "September",
     "website" : "http://beyondwonderland.com/",
-    "genres" : ["EDM "]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Austin City Limits",
@@ -1501,7 +1509,7 @@ var festivalData = [
     "state" : "Texas",
     "month" : "October",
     "website" : "http://www.aclfestival.com/",
-    "genres" : ["Alternative Rock", "EDM", "Rap"]
+    "genres" : ["Alternative Rock", "EDM", "Rap", "Electronic"]
   },
   {
     "name" : "Bayfest",
@@ -1605,7 +1613,7 @@ var festivalData = [
     "state" : "Florida",
     "month" : "November",
     "website" : "http://electricdaisycarnival.com/Orlando/",
-    "genres" : ["EDM"]
+    "genres" : ["EDM", "Electronic"]
   },
   {
     "name" : "Fun Fun Fun Fest",
@@ -1613,7 +1621,7 @@ var festivalData = [
     "state" : "Texas",
     "month" : "November",
     "website" : "http://www.funfunfunfest.com/",
-    "genres" : ["Indie Rock", "Progressive Rock", "Hip-Hop", "Electronic", "Hard Rock", "Alternative Rock", "Pop"]
+    "genres" : ["Indie Rock", "Progressive Rock", "Hip-Hop", "EDM", "Electronic", "Hard Rock", "Alternative Rock", "Pop"]
   },
   {
     "name" : "Lotus World Music & Arts Festival",
