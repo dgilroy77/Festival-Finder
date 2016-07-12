@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var path = require('path');
 
 var port = process.env.PORT || 8000;
-var dbUri = process.env.MONGOLAB_URI || 'mongodb://localhost/festivalfinder';
+var dbUri = process.env.MONGOLAB_URI || 'mongodb://127.0.0.1:27017/festivalfinder';
 
 var app = express();
 
@@ -28,3 +28,7 @@ app.listen(port, function(err) {
 });  
 
 module.exports = app;
+
+// Starting server steps
+// 1. open terminal window for mongoose, go to main directory, run "mongod"
+// 2. in server folder, run "node server.js"
